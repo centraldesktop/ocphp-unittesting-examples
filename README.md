@@ -9,5 +9,5 @@ License:  Apache
 
 To run unit tests:
 
-composer install (or composer update)
-vendor/bin/phpunit
+	composer install # (or composer update)
+	vendor/bin/phpunit

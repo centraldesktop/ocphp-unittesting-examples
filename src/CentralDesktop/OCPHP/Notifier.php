@@ -21,6 +21,4 @@ interface Notifier {
      */
     public
     function send(User $user, $message);
-
-
 }

@@ -1,18 +1,10 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: thyde
- * Date: 9/24/13
- * Time: 4:10 PM
- * To change this template use File | Settings | File Templates.
- */
 
 namespace CentralDesktop\OCPHP\Test;
 
 use CentralDesktop\OCPHP;
 
 class MathTest extends \PHPUnit_Framework_TestCase {
-
 
     public
     function testAddSimple() {
@@ -22,7 +14,6 @@ class MathTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals(2, $math->add(1, 1));
         //$this->assertEquals(2, $math->add(1, 2));
     }
-
 
     /**
      * @dataProvider addProvider
@@ -49,7 +40,6 @@ class MathTest extends \PHPUnit_Framework_TestCase {
             //array(3, 2, 2),
         );
     }
-
 
     public
     function testDivide() {
